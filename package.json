@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Java Script para automatizar testes com Selenium",
+  "main": "index.js",
+  "scripts": {
+    "contador.js": "node contador.js"
+  },
+  "author": "rafaela",
+  "license": "ISC",
+  "dependencies": {
+    "geckodriver": "^4.4.1",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "mochawesome": {
+    "reportDir": "reports",
+    "reportFilename": "report",
+    "reportTitle": "Relatório de Testes",
+    "overwrite": false
+  }
+}
